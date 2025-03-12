@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KreativVantage - Web Design Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            transition: all 0.5s ease-in-out;
+        }
+        .hover-effect:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <h1 class="text-3xl font-bold">KreativVantage</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#services" class="hover:underline">Services</a></li>
+                    <li><a href="#portfolio" class="hover:underline">Portfolio</a></li>
+                    <li><a href="#testimonials" class="hover:underline">Testimonials</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="text-center py-20 bg-gradient-to-r from-blue-400 via-pink-500 to-yellow-400">
+    <h2 class="text-4xl font-bold text-white">Creative Solutions for a Digital World</h2>
+    <p class="mt-4 text-lg text-white">We design stunning and effective websites to elevate your brand.</p>
+</section>
+
+     
+    <section id="services" class="py-20 container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center bg-gradient-to-r from-blue-400 via-pink-500 to-yellow-400 text-white p-4 rounded-md">
+            Our Services
+        </h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-6 text-center">
+            <div class="bg-gray-900 p-6 shadow-lg rounded-lg hover-effect">
+                <img src="sleek_computer_image.jpeg" alt="Web Design" class="mx-auto rounded-lg mb-4">
+                <h3 class="text-xl font-semibold">Web Design</h3>
+                <p>We create visually stunning and user-friendly designs.</p>
+            </div>
+            <div class="bg-gray-900 p-6 shadow-lg rounded-lg hover-effect">
+                <img src="fast secure image.jpeg" alt="Development" class="mx-auto rounded-lg mb-4">
+                <h3 class="text-xl font-semibold">Development</h3>
+                <p>We build fast, secure, and scalable websites.</p>
+            </div>
+            <div class="bg-gray-900 p-6 shadow-lg rounded-lg hover-effect">
+                <img src="boost_website_visibility_image.jpeg" alt="SEO Optimization" class="mx-auto rounded-lg mb-4">
+                <h3 class="text-xl font-semibold">SEO Optimization</h3>
+                <p>Boost your website's visibility and search rankings.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="py-20 bg-gray-800 text-center">
+        <h2 class="text-3xl font-bold bg-gradient-to-r from-green-400 via-purple-500 to-pink-500 text-white p-4 rounded-md">
+            Our Work
+        </h2>
+        <p class="mt-4 text-white">A showcase of our latest web design projects.</p>
+        <div class="grid md:grid-cols-3 gap-6 mt-6">
+            <a href="https://themarketingalliance.pages.dev">
+                <img src="the_marketing_alliance_logo.jpg" alt="Project 1" class="mx-auto rounded-lg shadow-lg">
+                <button type="button">Check it out</button>
+            </a>
+            <a href="https://vander-beige.vercel.app/">
+                <img src="gaming_image.png" alt="Project 1" class="mx-auto rounded-lg shadow-lg">
+                <button type="button">Check it out</button>
+            </a>
+            <a href="https://physicsviz.vercel.app/">
+                <img src="physics_image_200x200.png" alt="Project 1" class="mx-auto rounded-lg shadow-lg">
+                <button type="button">Check it out</button>
+            </a>
+        </div>
+    </section>
+    
+    <section id="testimonials" class="py-20 container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold bg-gradient-to-r from-red-400 via-orange-500 to-yellow-600 text-white p-4 rounded-md">
+            What Our Clients Say
+        </h2>
+        <blockquote class="mt-6 text-lg italic text-white">"KreativVantage transformed our online presence with an amazing design!"</blockquote>
+        <img src="testimonial_image.jpeg" alt="Client Photo" class="mx-auto mt-4 rounded-full shadow-lg">
+    </section>
+    
+    <section id="contact" class="py-20 bg-gray-800 text-center">
+        <h2 class="text-3xl font-bold bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 text-white p-4 rounded-md">
+            Get in Touch
+        </h2>
+        <p class="mt-4 text-white">Let's create something great together!</p>
+        <img src="contact_image.jpeg" alt="Contact Us" class="mx-auto mt-6 rounded-lg shadow-lg">
+        <a href="mailto:contact@kreativvantage.com" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover-effect">Contact Us</a>
+    </section>
+    
+    <footer class="bg-gray-900 text-white text-center py-4">
+        <p>&copy; 2025 KreativVantage. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
